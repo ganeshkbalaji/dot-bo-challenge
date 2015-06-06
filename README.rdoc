@@ -1,0 +1,55 @@
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
+
+
+# Print a Shipping Label using EasyPost API
+
+##Assignment
+Use the EasyPost API (https://www.easypost.com/) to implement a web page where a user
+can print a USPS Shipping Label in order to mail packages.
+
+Input:
+
+● From Address and Destination Address
+
+● Package attributes such as weight and dimensions
+
+Output:
+
+● A USPS Shipping Label suitable for printing.
+
+##My Approach
+
+1. The first thing is to read EasyPost documentation about their API(30min)
+2. Put my API key into my secret yaml file
+3. Generate a controller for EasyPosts(30min)
+4. Generate a view for Easy post that will contain a form where a user can enter to and from addresses(30 min)
+5. Perform necessary testing to ensure the form displays required input fields (20min)
+6. Test the form to ensure the API works and returns a shipping label(20min)
+7. Add Necessary styling for the form (40min)
