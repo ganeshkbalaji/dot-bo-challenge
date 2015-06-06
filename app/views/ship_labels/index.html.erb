@@ -12,66 +12,75 @@
   </div>
 
   <div class="form-container">
-    <p>From Address</p>
-    <div class="inputs">
+    <h2>From Address:</h2>
+    <ul class="inputs">
+      <li>
         <input type="text" name="from_address[company]" class="form-control" placeholder="Name" required>
-    </div>
+      </li>
 
-    <div class="inputs">
+      <li>
         <input type="text" name="from_address[street1]" class="form-control" placeholder="Street Address" required>
-    </div>
+      </li>
 
-    <div class="inputs">
+      <li>
         <input type="text" name="from_address[city]" class="form-control" placeholder="City" required>
-    </div>
+      </li>
 
-    <div class="inputs">
+      <li>
         <input type="text" name="from_address[state]" class="form-control" placeholder="State" required>
-    </div>
-    <div class="inputs">
+      </li>
+      <li>
         <input type="number" name="from_address[zip]" class="form-control" placeholder="ZIP" required>
-    </div>
+      </li>
+    </ul>
   </div>
 
   <div class="form-container">
-    <p>To Address</p>
-    <div class="inputs">
+    <h2>To Address:</h2>
+    <ul class="inputs">
+      <li>
         <input type="text" name="to_address[name]" class="form-control" placeholder="Name" required>
-    </div>
+      </li>
 
-    <div class="inputs">
+      <li>
         <input type="text" name="to_address[street1]" class="form-control" placeholder="Street Address" required>
-    </div>
-    <div class="inputs">
+      </li>
+
+      <li>
         <input type="text" name="to_address[city]" class="form-control" placeholder="City" required>
-    </div>
+      </li>
 
-    <div class="inputs">
+      <li>
         <input type="text" name="to_address[state]" class="form-control" placeholder="State" required>
-    </div>
-    <div class="inputs">
+      </li>
+
+      <li>
         <input type="text" name="to_address[zip]" class="form-control" placeholder="ZIP" required>
-    </div>
-  </div>
-  <div class="form-container">
-    <p>Parcel Dimentions</p>
-    <div class="inputs">
-        <input type="number" name="parcel[length]" class="form-control" placeholder="Length" required>
-    </div>
+      </li>
+    </ul>
+    <div class="form-container">
+      <h2>Parcel Dimentions:</h2>
+      <ul class = "inputs">
 
-    <div class="inputs">
-        <input type="number" name="parcel[width]" class="form-control" placeholder="Width" required>
-    </div>
-    <div class="inputs">
-        <input type="number" name="parcel[height]" class="form-control" placeholder="Height" required>
-    </div>
-    <div class="inputs">
-        <input type="number" name="parcel[weight]" class="form-control" placeholder="Weight" required>
-    </div>
-  </div>
+        <li>
+          <input type="number" name="parcel[length]" class="form-control" placeholder="Length" required>
+        </li>
 
-  <div class="inputs">
-      <button type="submit" class="button">Print Label</button>
-  </div>
-</form>
+        <li>
+          <input type="number" name="parcel[width]" class="form-control" placeholder="Width" required>
+        </li>
+
+        <li>
+          <input type="number" name="parcel[height]" class="form-control" placeholder="Height" required>
+        </li>
+
+        <li>
+          <input type="number" name="parcel[weight]" class="form-control" placeholder="Weight" required>
+        </li>
+      </ul>
+    </div>
+    <div class="btn">
+    <button type="submit" class="button">Print Label</button>
+    </div>
+  </form>
 </div>
